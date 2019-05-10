@@ -29,18 +29,23 @@ function replace() {
 	images = document.getElementsByTagName('img');
 
 	for ( var k = 0; k < images.length; k++) {
-		var element = tags[i];
 
-		var alt = element.alt;
+		var element = images[k];
 
-		alt = alt.toLowerCase();
+		if (element.alt != null || element.alt != ''){
+			var alt = element.alt;
 
-		dictionary.forEach( function( dictionaryItem ) {
-			var newAlt = alt.includes( dictionaryItem );
-			if ( newAlt ) {
-				element.style.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/VSymbol1.png/200px-VSymbol1.png';
-			}
-		});
+			console.log(element.alt);
+
+			alt = alt.toLowerCase();
+
+			dictionary.forEach( function( dictionaryItem ) {
+				var newAlt = alt.includes( dictionaryItem );
+				if ( newAlt ) {
+					element.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/VSymbol1.png/200px-VSymbol1.png';
+				}
+			});
+		}
 
 
 	}
