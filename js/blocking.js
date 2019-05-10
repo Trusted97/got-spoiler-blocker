@@ -10,8 +10,10 @@ function replace() {
 			var node = element.childNodes[j];
 
 			if ( node.nodeType === 3 ) {
+
 				var text = node.nodeValue;
 				text = text.toLowerCase();
+
 				dictionary.forEach( function( dictionaryItem ) {
 					var newText = text.includes( dictionaryItem );
 					if ( newText ) {
@@ -19,9 +21,32 @@ function replace() {
 						element.style.color = 'black';
 					}
 				});
+
 			}
 		}
 	}
+
+	images = document.getElementsByTagName('img');
+
+	for ( var k = 0; k < images.length; k++) {
+		var element = tags[i];
+
+		var alt = element.alt;
+
+		alt = alt.toLowerCase();
+
+		dictionary.forEach( function( dictionaryItem ) {
+			var newAlt = alt.includes( dictionaryItem );
+			if ( newAlt ) {
+				element.style.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/VSymbol1.png/200px-VSymbol1.png';
+			}
+		});
+
+
+	}
+
+
+
 }
 
 replace();
