@@ -42,7 +42,7 @@ function replace() {
 			dictionary.forEach( function( dictionaryItem ) {
 				var newAlt = alt.includes( dictionaryItem );
 				if ( newAlt ) {
-					element.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/VSymbol1.png/200px-VSymbol1.png';
+					element.src = 'https://cdn4.dogonews.com/images/cf59e31d-0a0e-49b4-9a5a-cd53d48cfd45/workingtoget-1.jpg';
 				}
 			});
 		}
