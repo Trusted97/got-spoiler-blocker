@@ -1,4 +1,4 @@
-var dictionary = [ 'salvini', 'night\'s watch', 'lega', 'lega salvini', '5 stelle', 'm5s',  ];
+var dictionary = [ 'salvini', 'di maio', 'matteo salvini', 'luigi di maio', 'lega', 'lega salvini', 'padania', '5 stelle', 'm5s', 'casapound'  ];
 
 function replace() {
 	tags = document.getElementsByTagName('*');
@@ -24,4 +24,4 @@ function replace() {
 	}
 }
 
-replace(); 
+replace();

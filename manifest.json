@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
 
-  "name": "GOT Spoiler Blocker",
-  "description": "This extension indescriminately blocks all mentions of Game of Thrones characters and plotlines in an attempt to not have my life ruined.",
-  "version": "0.1",
-  "author": "Jared Sulzdorf",
+  "name": "Italian Politicians Blocker",
+  "description": "This extension indescriminately blocks all mentions of Italian Politicians in an attempt to not have my life ruined, based on GOT Spoiler Blocker. Icons made by Freepik",
+  "version": "1.0",
+  "author": "Gianluca Benucci",
 
   "browser_action": {
     "default_icon": {
