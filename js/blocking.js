@@ -1,4 +1,4 @@
-var dictionary = [ 'tyrion', 'jamie', 'cersei', 'daenerys', 'jon', 'snow', 'lannister', 'baelish', 'petyr', 'arya', 'stark', 'sansa', 'greyjoy', 'game of thrones', 'baratheon', 'frey', 'martell', 'tully', 'tyrel', 'westeros', 'night\'s watch', 'bolton', 'clegane', 'targaryen', 'varys' ];
+var dictionary = [ 'salvini', 'night\'s watch', 'lega', 'lega salvini', '5 stelle', 'm5s',  ];
 
 function replace() {
 	tags = document.getElementsByTagName('*');
@@ -24,4 +24,4 @@ function replace() {
 	}
 }
 
-replace();
+replace(); 
